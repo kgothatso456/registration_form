@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: teal;
+
+}
+.app{
+    background: white;
+    width: 90%;
+    max-width: 800px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px 2px;
+}
+.app h1{
+    font-size: 30px;
+    color: rgb(50, 199, 199);
+    font-weight: 600;
+    border-bottom: 1px solid #313030 ;
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+
+.quiz h2{
+    font-size: 20px;
+    color: rgb(50, 199, 199);
+    font-weight: 600;
+}
+
+.btn{
+    background: rgb(27, 96, 99);
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not(:disabled){
+    background: rgb(2, 58, 61);
+    color: black;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    background: rgb(27, 96, 99);
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    width: 150px;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.correct{
+    background: rgba(4, 223, 4, 0.74);
+}
+
+.incorrect{
+    background: rgba(252, 9, 9, 0.877);
+}
+
+
+
+
+
+
+
+
